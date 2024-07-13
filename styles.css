@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #FFFFFF;
+    color: #211951;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+#fonts .example-text {
+    font-size: 1.2rem;
+}
+
+#color-theme {
+    display: flex;
+    gap: 10px;
+}
+
+.color-swatch {
+    padding: 10px;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.color-swatch.primary {
+    background-color: #211951;
+}
+
+.color-swatch.secondary {
+    background-color: #836FFF;
+}
+
+.color-swatch.accent {
+    background-color: #15F5BA;
+    color: #211951;
+}
+
+.color-swatch.background {
+    background-color: #FFFFFF;
+    color: #211951;
+}
+
+#headings h1 {
+    font-size: 2.5rem;
+    color: #211951;
+}
+
+#headings h2 {
+    font-size: 2rem;
+    color: #211951;
+}
+
+#headings h3 {
+    font-size: 1.5rem;
+    color: #211951;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    margin: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn.primary {
+    background-color: #211951;
+}
+
+.btn.secondary {
+    background-color: #836FFF;
+}
+
+.btn.accent {
+    background-color: #15F5BA;
+    color: #211951;
+}
+
+.btn:hover {
+    /*background-color: gray;*/
+    transform: scale(1.10);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    color: #211951;
+}
+
+input[type="text"],
+input[type="checkbox"],
+input[type="radio"] {
+    padding: 5px;
+    margin-top: 5px;
+    border: 1px solid #211951;
+    border-radius: 5px;
+}
+
+.message {
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+    color: white;
+}
+
+.message.success {
+    background-color: #15F5BA;
+    color: #211951;
+}
+
+.message.warning {
+    background-color: #836FFF;
+}
+
+.message.error {
+    background-color: #e74c3c;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    color: #211951;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; 
+}
+
+footer a {
+    display: inline-block;
+}
+
+.github-logo {
+    width: 24px; 
+    transition: transform 0.3s ease;
+}
+
+.github-logo:hover {
+    transform: scale(1.2);
+}
+

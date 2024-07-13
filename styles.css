@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +7,7 @@
 
 body {
     font-family: 'Ubuntu', sans-serif;
-    background-color: #FFFFFF;
+    background-color: #FFF;
     color: #211951;
     padding: 20px;
     line-height: 1.6;
@@ -14,6 +15,14 @@ body {
 
 header {
     margin-bottom: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+.section-heading {
+    margin-bottom: 10px;
 }
 
 #fonts .example-text {
@@ -46,7 +55,7 @@ header {
 }
 
 .color-swatch.background {
-    background-color: #FFFFFF;
+    background-color: #FFF;
     color: #211951;
 }
 
@@ -55,12 +64,17 @@ header {
     color: #211951;
 }
 
-#headings h2 {
+#headings .ubuntu-light {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+}
+
+#headings h2.ubuntu-light {
     font-size: 2rem;
     color: #211951;
 }
 
-#headings h3 {
+#headings h3.ubuntu-light {
     font-size: 1.5rem;
     color: #211951;
 }
@@ -72,7 +86,7 @@ header {
     color: white;
     cursor: pointer;
     margin: 5px;
-    transition: background-color 0.3s ease;
+    transition: transform 0.3s ease;
 }
 
 .btn.primary {
@@ -89,8 +103,7 @@ header {
 }
 
 .btn:hover {
-    /*background-color: gray;*/
-    transform: scale(1.10);
+    transform: scale(1.05);
 }
 
 form {
@@ -156,4 +169,3 @@ footer a {
 .github-logo:hover {
     transform: scale(1.2);
 }
-
